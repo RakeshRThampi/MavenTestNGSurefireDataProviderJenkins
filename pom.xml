@@ -5,7 +5,6 @@
 	<groupId>srt</groupId>
 	<artifactId>MavenTestNGSurefireDataProviderJenkins</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
 	<!-- RRT::Maven Surefire plugin to execute the TestNG.xml file -->
 	<build>
 		<plugins>
@@ -21,7 +20,6 @@
 			</plugin>
 		</plugins>
 	</build>
-
 	<dependencies>
 		<!--
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
