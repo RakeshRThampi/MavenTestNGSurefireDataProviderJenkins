@@ -5,7 +5,8 @@
 	<groupId>srt</groupId>
 	<artifactId>MavenTestNGSurefireDataProviderJenkins</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<!-- RRT::Maven Surefire plugin to execute the TestNG.xml file -->
+	<!-- RRT::Maven Surefire plugin to execute the TestNG.xml file.
+	A GitHub webhook is created for Jenkins, automatically executing this file whenever a push is made in GitHun -->
 	<build>
 		<plugins>
 			<plugin>
